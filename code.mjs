@@ -6,7 +6,7 @@ export const is_kaibun = async (phrase) => {
 	await kuroshiro.init(new KuromojiAnalyzer());
 
 	const hiraganaPhrase = await kuroshiro.convert(phrase)
-	return is_palindrome(hiraganaPhrase);
+	// return is_palindrome(hiraganaPhrase);
 	return is_palindrome(phrase);
 }
 
