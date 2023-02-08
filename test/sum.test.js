@@ -1,8 +1,4 @@
-import { fibonanci, is_kaibun, is_palindrome } from "../code.mjs"
-
-// test("1 returns 1", () => {
-// 	expect(fibonanci(1)).toBe(1);
-// })
+import { is_kaibun, is_palindrome } from "../code.mjs"
 
 describe("is_kaibun", () => {
 	test("handles katakana", () => {
